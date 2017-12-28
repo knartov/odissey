@@ -12,6 +12,7 @@ print(ftp.login(ftp_user, ftp_password))
 ftp.cwd('fcs_regions')
 ftp.cwd('PG-PZ')
 
+
 filenames = ftp.nlst()
 
 print(filenames)
